@@ -1,0 +1,567 @@
+
+body{
+    background: #FFF;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* header start */
+
+.header .slider {
+    height: 600px;
+    background-color: rgb(155, 150, 150);
+    background-image: url('../images/berserk_background.jpg');
+    background-size: cover; /* css3 */
+}
+
+.header .slider .intro{
+    color: #FFF;
+    padding-top: 200px;
+}
+
+.header .slider .intro h2 {
+    color: #FFF;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+    font-size: 50px;
+    width: 470px;
+    padding: 5px 0;
+    margin: 0px auto;
+    /* h2 always use margin-block-star : 0.83em & margin-block-end : 0.83 which give a margin-top & margin-bottom so we need margin : 0 */
+}
+
+.header .slider .intro button{
+    background: none;
+    border: 1px solid #FFF;
+    color: #FFF;
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.header .navbar{
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.header .navbar h2 {
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.header .navbar h2 span{
+    color: #2ecc71;
+}
+
+.header .navbar ul{
+    list-style : none;
+    padding-left: 0;
+    float: right;
+}
+
+.header .navbar ul li{
+    padding: 10px;
+}
+
+.header .navbar ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+    color: #30b576;
+}
+
+/* header end */
+
+
+/* feature start */
+
+.feature{
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.feature .feat{
+    width: 33%;
+    height: 150px;
+}
+
+.feature .feat h3{
+    text-transform: uppercase;
+}
+
+.feature .feat p{
+    line-height: 1.7;
+    color: #888;
+    text-align: justify;
+    padding: 0 30px 0 0;
+}
+
+/* feature end */
+
+
+/* about start */
+
+.about{
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.about .image{
+    width: 40%;
+}
+.about .image img{
+    width: 100%;
+}
+
+.about .info{
+    width: 60%;
+}
+
+.about .info h2{
+    margin: 20px 0 10px 40px;
+}
+
+.about .info > p{
+    margin: 0 0 10px 40px;
+    font-size: 15px;
+}
+
+.about .info > p:last-of-type{
+    margin-top: 20px;
+}
+
+.about .info .hobbies{
+    overflow: hidden;
+    margin: 15px 0 0 40px;
+}
+
+.about .info .hobbies .content {
+    width: 50%;
+    min-height: 90px;
+    overflow: hidden;
+}
+
+.about .info .hobbies .content .content-icon{
+    width: 12%;
+    margin-right: 6%;
+}
+
+.about .info .hobbies .content .content-icon i{
+    margin: 20px 10px 0 0;
+    color: #2dcc70;
+}
+
+.about .info .hobbies .content .content-text{
+    width: 82%;
+}
+
+.about .info .hobbies .content .content-text h3{
+    margin: 10px 0;
+}
+
+.about .info .hobbies .content .content-text p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* about end */
+
+
+/* my-skills start */
+
+.my-skills{
+    overflow: hidden;
+    padding: 30px 0px 50px 0px;
+}
+
+.my-skills .skills, .my-skills .progress{
+    width: 50%;
+}
+
+.my-skills .skills h2{
+    margin: 20px 0 10px 40px;
+}
+
+.my-skills .skills p{
+    margin: 0px 0 10px 40px;
+    font-size: 15px;
+}
+
+.my-skills .skills p:last-of-type{
+    margin-top: 25px;
+}
+
+.my-skills .skills p::first-letter{
+    text-transform: capitalize;
+}
+
+.my-skills .skills button{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.my-skills .progress .technique{
+    margin-left: 50px;
+}
+
+.my-skills .progress .technique h3{
+    margin: 15px 0 5px 0;
+}
+
+.my-skills .progress .technique div{
+    background-color: #F2F2F2;
+    height: 25px;
+}
+
+.my-skills .progress .technique div span{
+    background-color: #2dcc70;
+    height: 25px;
+    display: block;
+    color: #FFF;
+    text-align: right;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+/* my-skills end */
+
+
+/* resume start */
+
+.resume{
+    overflow: hidden;
+    padding: 50px 0 70px 0;
+    background-color: #F2F2F2;
+}
+
+.resume h2{
+    text-transform: uppercase;
+}
+
+.resume p{
+    padding: 0 60px;
+}
+
+.resume button{
+    margin-top: 30px;
+}
+
+.resume p::first-letter{
+    text-transform: capitalize;
+}
+
+/* resume end */
+
+
+/* my-education start */
+
+.my-education{
+    overflow: hidden;
+    padding: 30px 0px;
+}
+
+.my-education .main, .my-education .experience{
+    float: left;
+}
+
+.my-education .main{
+    width: 50%;
+    margin-right: 5%;
+}
+
+.my-education .main h2{
+    margin: 20px 0 10px 40px;
+}
+
+.my-education .main p{
+    margin: 0px 0 10px 40px;
+    font-size: 15px;
+}
+
+.my-education .main p:last-of-type, .my-education .experience p:last-of-type{
+    margin-top: 25px;
+}
+
+.my-education .main p::first-letter{
+    text-transform: capitalize;
+}
+
+.my-education .main p::first-letter{
+    text-transform: capitalize;
+}
+
+.my-education .experience{
+    width: 45%;
+}
+
+.my-education .experience h3{
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.my-education .experience span{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.my-education .experience span:first-of-type{
+    
+    color: #999;
+}
+
+.my-education .experience span:last-of-type{
+    background-color: #1faf72;
+    color: #FFF;
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+.my-education .experience hr{
+    margin: 20px 0;
+    color: #999;
+}
+
+.my-education .experience p{
+    font-size: 15px;
+}
+
+/* my-education end */
+
+
+/* testimonials start */
+
+.testimonials{
+    overflow: hidden;
+    padding: 30px 0 30px 0;
+    background-color: #F2F2F2;
+}
+
+.testimonials q{
+    color: #888;
+    line-height: 1.7;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.testimonials h4{
+    text-transform: capitalize;
+    color: #666;
+}
+
+.testimonials p::first-letter{
+    text-transform: capitalize;
+}
+
+.testimonials ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.testimonials ul li{
+    height: 10px;
+    width: 10px;
+    border: 2px solid #888;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.testimonials ul li.active, .testimonials ul li:hover{
+    background-color: #888;
+}
+
+/* testimonials end */
+
+
+/* portfolio start */
+
+.portfolio{
+    padding: 50px 0 70px 0;
+}
+
+.portfolio h2{
+    text-transform: uppercase;
+}
+
+.portfolio p{
+    margin-bottom: 50px;
+}
+
+.portfolio .our-work{
+    overflow: hidden;
+}
+
+.portfolio .our-work > div{
+    width: 33.33333%;
+    margin-bottom: 10px;
+}
+
+.portfolio .our-work > div img{
+    width: 92%;
+    margin: 10px;
+}
+
+/* portfolio end */
+
+
+/* contact start */
+
+.contact{
+    overflow: hidden;
+    padding: 30px 0px;
+    background-color: #252F31;
+}
+
+.contact .contact-info{
+    width: 50%;
+    margin-right: 5%;
+}
+
+.contact .contact-info h2{
+    color: #FFF;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.contact .contact-info p{
+    color: #6A6E71;
+    margin-left: 40px;
+}
+
+.contact .contact-info address{
+    color: #6A6E71;
+    margin-left: 40px;
+    font-style: normal;
+    line-height: 1.3;
+}
+
+.contact .contact-info p strong{
+    color: #d1d6da;
+}
+
+
+.contact .contact-form{
+    width: 45%;
+    padding-top: 50px;
+}
+
+.contact .contact-form label{
+    display: block;
+    color: #d1d6da;
+    margin: 10px 0;
+}
+
+.contact .contact-form input[type="text"]{
+    background-color: #4b5557;
+    width: 90%;
+    border: none;
+    padding: 5px;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.contact .contact-form textarea{
+    background-color: #4b5557;
+    width: 90%;
+    border: none;
+    padding: 5px 10px;
+    color: #FFF;
+    margin-bottom: 10px;
+    max-height: 300px
+}
+
+.contact .contact-form input[type="submit"]{
+    background-color: #191e22;
+    color: #FFF;
+    padding: 10px;
+    width: 25%;
+    border: none;
+    margin-top: 10px;
+}
+
+/* contact end */
+
+
+/* footer start */
+
+.footer{
+    overflow: hidden;
+    padding: 20px 0px;
+    background-color: #191E22;
+    color: #6A6E71;
+}
+
+.footer span{
+    color: #777;
+}
+
+.footer ul{
+    list-style: none;
+    overflow: hidden;
+    -webkit-padding-start: 0;
+}
+
+.footer ul li{
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    border: 0;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #666;
+    margin: 0 2px;
+}
+
+.footer ul li i{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    color: #000;
+}
+
+.footer ul li i:hover{
+    color: #BBB;
+}
+
+/* footer end */
+
+/* my framework design */
+
+.special-button{
+    background: none;
+    border: 1.5px solid #2ecc71;
+    color: #2dcc70;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.flt-left{
+    float: left;
+}
+
+p{
+    line-height: 1.2;
+    color: #666;
+}
+
+h2, h3{
+    color: #555;
+}
+
+.txt-center{
+    text-align: center;
+}
